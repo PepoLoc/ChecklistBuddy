@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  body {
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #808080;
+    color: white;
+    padding: 5px 15px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  input[type=file] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    text-align: center;
+  }
+  
