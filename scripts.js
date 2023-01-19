@@ -10,12 +10,6 @@ uploadButton.addEventListener("click", function () {
     // Get the file from the input
     const file = fileInput.files[0];
 
-    // Check that a file was selected
-    if (!file) {
-        alert("Please select a file to upload");
-        return;
-    }
-
     //save the file in the cache
     localStorage.setItem("xbcklFile", file);
     // Enable the download button
